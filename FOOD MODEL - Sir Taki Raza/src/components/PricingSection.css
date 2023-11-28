@@ -1,0 +1,64 @@
+.pricing-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .pricing-box {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .green-top {
+    background-color: green;
+    flex: 1;
+    color: white;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+  }
+  .green-top h2{
+    color: wheat;
+  }
+  .light-grey-bottom {
+    background-color: rgb(208, 201, 201);
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+  }
+  
+  .light-grey-bottom h2 {
+    margin: 10px 0;
+  }
+  
+  .light-grey-bottom p {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .light-grey-bottom ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .light-grey-bottom li {
+    margin: 5px 0;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  
+  .light-grey-bottom button {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+  }
+  

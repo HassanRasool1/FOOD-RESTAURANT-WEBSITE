@@ -1,0 +1,77 @@
+.hero-section {
+    position:relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+  }
+  
+  .hero-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    background-image: url();
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .buttonE {
+    position: absolute;
+    bottom: inherit;
+    left: 680px;
+    top: 735px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #b9d56f;
+    color: #ffffff;
+    background-color: #004d21;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: sans-serif;  
+    font-weight: bold;
+  }
+  .buttonE:hover {
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+    font-family: sans-serif; 
+    border: none; 
+
+  }
+
+  .buttonG{
+    position: absolute;
+    bottom: inherit;
+    left: 785px;
+    top: 735px;
+    font-family: sans-serif; 
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #b9d56f;
+    color: #ffffff;
+    background-color: #004d21;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+
+  }
+  .buttonG:hover{
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+    font-family: sans-serif;  
+  }

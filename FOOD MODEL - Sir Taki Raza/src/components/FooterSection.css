@@ -1,0 +1,31 @@
+.footer-section {
+    text-align: center;
+  }
+  
+  .green-background {
+    background-color: #4caf50;
+    padding: 20px;
+    color: white;
+    height: 300px;
+  }
+  
+  .green-background img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 70px;
+  }
+  
+  .social-icons {
+    font-size: 24px;
+    margin: 20px;
+    transition: 0.3s;
+
+  }
+  .social-icons i {
+    padding: 0 15px;
+  }
+  .social-icons:hover{
+    color: lightgray;
+  }
+  
